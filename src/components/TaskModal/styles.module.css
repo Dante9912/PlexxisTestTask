@@ -1,0 +1,150 @@
+.modalBox {
+    position: absolute;
+    top: 50%;
+    background-color: white;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 650px;
+    height: 90%;
+    box-shadow: 24;
+    border-radius: 6px;
+
+}
+
+
+
+
+.TopPart {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+}
+
+
+
+/*TagLine   */
+.taglineMainDiv {
+    display: flex;
+    margin: 10px;
+
+}
+
+.taglistText {
+    background-color: rgba(0, 0, 0, .04);
+    /* max-width: 80px; */
+    width: 100px;
+    /* margin-top: 10px; */
+    font-size: 12px;
+    display: flex;
+    justify-content: center;
+}
+
+
+
+
+
+/*Status Bar */
+.statusBarMainDiv {
+    display: flex;
+    align-items: center;
+    min-width: 440px;
+    height: 48px;
+}
+
+.dropDownButton {
+    /* background-color:   ; */
+    border: 1px solid #d6d6d6;
+    border-left: 8px solid rgba(104, 159, 56, 1);
+    background-color: #f0f9e9;
+    color: black;
+    min-width: 183px;
+    max-width: 100%;
+    height: 48px;
+    border-radius: 0px;
+}
+
+.DropDownSelectedtext {
+    flex-grow: 1;
+    color: rgba(0, 0, 0, .9);
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 20px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.menuItemColorMain {
+    width: 12px;
+    height: 12px;
+    margin: 10px;
+}
+
+
+.DescriptionDiv {
+    margin-top: 50px;
+}
+
+.descriptionInput {
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 104px;
+    background-color: white;
+    border: 1px solid #d6d6d6;
+    padding: 40px 24px;
+    cursor: pointer;
+    color: rgba(0, 0, 0, .32);
+}
+
+.descriptionInput::placeholder:hover {
+    color: #ff0000;
+    opacity: 1;
+}
+
+
+
+.descriptionInput:focus {
+
+    outline: none;
+
+}
+
+.checkboxDiv {
+    display: flex;
+    align-items: center;
+}
+
+.AssignButton {
+    border: 1px solid #d6d6d6;
+    background-color: white;
+    color: black;
+    display: inline-block;
+    min-width: 200px;
+    max-width: 100%;
+
+    height: 48px;
+    border-radius: 0px;
+    border-left: none;
+    border-right: none;
+}
+.AuthorDiv {
+    border: 1px solid #d6d6d6;
+    background-color: white;
+    color: black;
+    display: flex;
+    align-items: center;
+    min-width: 267px;
+    max-width: 100%;
+    height: 48px;
+    border-radius: 0px;
+    border-left: none;
+    font-size: 14px;
+}
+
+.assginedUsersDiv{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}

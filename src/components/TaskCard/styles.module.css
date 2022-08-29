@@ -1,0 +1,46 @@
+.card {
+    width: 280px;
+    height: 120px;
+    cursor: pointer;
+
+
+}
+
+.card:hover {
+    border: 1px solid rgba(0, 0, 0, .04);
+}
+
+.cardContent {
+    padding: 16px;
+}
+
+
+.cardTitle {
+    color: #4b87c2;
+    font-size: 14px;
+}
+
+.cardDescription {
+    color: black;
+    font-size: 14px;
+}
+
+
+.tagListMain {
+    background-color: rgba(0, 0, 0, .04);
+    max-width: 80px;
+    margin-top: 10px;
+    font-size: 12px;
+    display: flex;
+    justify-content: center;
+}
+
+.additionalInfo {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+}
+
+.dateText {
+    font-size: 12px;
+}
